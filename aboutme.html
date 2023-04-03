@@ -2,9 +2,11 @@
 <html>
   <head>
     <title>About Me</title>
-	<link rel="icon" href="img/favicon.png" type="image/x-icon" />
+	<link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/favicon.png" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+    
       body {
         font-family: Arial, sans-serif;
         background-color: #F8F8F8;
@@ -52,10 +54,46 @@
 			margin-right: 5px;
 			vertical-align: middle;
 		}
+
+    footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1;
+    }
+
+footer a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+        }   
+
+footer a:hover {
+    color: #f1c40f;
+          }
+
+main {
+    margin-bottom: 50px;
+        }
+
 		
     </style>
   </head>
   <body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="get-started.html">Get Started!</a>
+      </nav>
+      
+    </header>
     <h1>About Me</h1>
     <p>My name is Jundi Prima and I have always been interested in learning and exploring new ideas. I completed my primary and secondary education at <span class="highlight">SMKN 1 Cibinong</span>, a vocational high school in West Java, Indonesia, where I studied <span class="highlight">automation control</span> and developed a passion for critical thinking and problem-solving.</p>
     <p>After completing high school, I pursued a degree in <span class="highlight">instrumentation control industries</span> at <span class="highlight">Politeknik Negeri Jakarta</span>, one of the leading polytechnic universities in Indonesia. During my studies, I developed a strong foundation in the principles and applications of instrumentation control industries, which helped me to better understand how to design and control various industrial processes.</p>
