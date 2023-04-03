@@ -4,12 +4,14 @@ body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
+	
 }
 
 header {
 	background-color: #333;
 	color: #FFF;
 	padding: 10px 50px;
+	
 }
 
 nav {
@@ -31,13 +33,18 @@ nav a:hover {
 
 main {
 	margin: 50px;
+	
 }
 
 h1 {
 	font-size: 36px;
 	margin-bottom: 30px;
+	
 }
 
 .projects-container {
 	display: flex;
-	flex
+	margin:  auto; /* This will center the container horizontally */
+	max-width: 800px; /* Adjust the max-width to fit your project */
+	  
+}
