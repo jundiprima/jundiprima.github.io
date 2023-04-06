@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <head>
 	<title>Jundi Prima - Portfolio</title>
 	
 	
 		<link rel="icon" href="img/favicon.png" type="image/x-icon" />
 	<style>
-		  body {
-			
-          background-image: url("img/main-bg.jpg");
-          background-repeat: repeat;
-          background-size: cover;
-		  
-        }
+	
 		body {
-			background-color: #F8F8F8;
-			color: #333;	
+			/* background-image: url("img/main-bg.jpg"); */
+			background-repeat: no-repeat;
+			margin-top: 500px;
+			background-size: cover;
+
+			background-color: #333;
+			color: #fff;	
 			font-family: Arial, sans-serif;
 			margin: 0;
 			padding: 0;
+			height: 130vh;
+			
+		}
+
+		.img{
+			margin-top: 100px;
 			
 			
 		}
@@ -112,17 +118,31 @@
 			<a href="index.html">Home</a>
 			<a href="aboutme.html">About Me</a>
 		</nav>
+	</header>
 
 	<div class="container">
+		<div class="animate__animated animate__slideInDown">
 		<h1>Welcome to my portfolio!</h1>
 		<p>My name is <span class="highlight">Jundi Prima</span>, a critical thinker with a passion for problem-solving.</p>
-		
+		</div>
+    </div>
 		
 		<div class="buttons">
-			<a href="get-started.html"><button>Get Started</button></a>
-			<a href="aboutme.html"><button>More About Me</button></a>
-			
+			<div class="animate__animated animate__slideInRight">
+				<a href="get-started.html"><button>Get Started</button></a>
+			</div>
+			<div class="animate__animated animate__slideInLeft">	
+				<a href="aboutme.html"><button>More About Me</button></a>
+			</div>
 		</div>
+			
+
+		<div class="animate__animated animate__slideInUp">
+			<div class="img ">
+				<img src="img/main-bg.jpg" alt="" width="100%">
+			</div>
+		</div>
+
 	</div>
 	
 		<div class="contact-info">

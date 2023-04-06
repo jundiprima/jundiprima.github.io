@@ -4,6 +4,8 @@
 	<title>Get Started - Jundi Prima Portfolio</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="icon" href="img/favicon.png" type="image/x-icon" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<style>
 
 	.project {
@@ -42,6 +44,26 @@
 			vertical-align: middle;
 		}
 
+		.card{
+			box-shadow: 0 4px 25px 0;
+			margin-bottom: 20px;
+		}
+		
+		.container{
+			padding: 2px 16px;
+			text-decoration: none;
+		}
+		
+		a{
+			text-decoration: none;
+			color:#333
+		}
+		
+			
+		
+		footer{
+			margin-top: 150px;
+		}
 
 		</style>
 </head>
@@ -57,44 +79,47 @@
 	</header>
 
 	<main>
-		<h1>My Projects</h1>
 
-		<div class="projects-container">
-
-			<a href="project1.html" class="project">
-				<img src="img/project-1.png" alt="Project 1"class="pImg">
-				<div class="project-desc">
-
-					<h2>3 Phase Kwh Meter</h2>
-					<p>3 Phase Kwh Meter with iot intergration</p>
-				</div>
-			</a>
-
-			<a href="project2.html" class="project">
-				<img src="img/project-2.png" alt="Project 2"class="pImg">
-				<div class="project-desc">
-
-					<h2>Obstacle Avoidance </h2>
-					<p>Simple 4 wheeler car that avoid obstacle with closed loop control</p>
-				</div>
-			</a>
-
-			<a href="project3.html" class="project">
-				<img src="img/project-3.png" alt="Project 1"class="pImg">
-				<div class="project-desc">
-					<h2>Discord Music Bot</h2>
-					<p>it was cool before yt bans discord bot</p>
-				</div>
-			</a>
-
-			<a href="https://www.youtube.com/watch?v=btoffUuZgTE&t=280s" class="project">
-				<img src="img/project-4.webp" alt="Project 4"class="pImg">
-				<div class="project-desc">
-					<h2>Quickshifter </h2>
-					<p>literally upshift without clutch</p>
-				</div>
-			</a>
+		<div class="animate__animated animate__slideInUp">
+	<div class="card">
+		<a href="comingsoon.html">
+		<img src="img/project-1.png" alt="avatar" style="width: 100%;">
+		<div class="container">
+				<h4>3 PHASE KWh METER</h4>
+				<p>3 phase KWh meter with IoT integration</p>				
+			</div>
+		</a>
+	</div>
+	<div class="card">
+		<a href="comingsoon.html">
+		<img src="img/project-2.png" alt="avatar" style="width: 100%;">
+		<div class="container">
+			<h4>Autonomus Vehicle</h4>
+			<p>4 wheeler car with closed loop control</p>
 		</div>
+	</div>
+	<div class="card">
+		<a href="comingsoon.html">
+		<img src="img/project-3.png" alt="avatar" style="width: 100%;">
+		<div class="container">
+			<h4>DISCORD MUSIC BOT</h4>
+			<p>STREAM ANY SONG FROM YOUTUBE IN DISCORD</p>
+		</div>
+	</div>
+	<div class="card">
+		<a href="comingsoon.html">
+		<img src="img/project-4.webp" alt="avatar" style="width: 100%;">
+		<div class="container">
+			<h4>QUICKSHIFTER</h4>
+			<p>upshift your bike with no effort</p>
+		</div>
+	</div>
+</div>
+
+
+
+
+
 	</main>
 
 	<footer>

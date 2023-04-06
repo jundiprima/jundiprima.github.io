@@ -11,14 +11,15 @@ body {
 header {
 	background-color: #333;
 	color: #FFF;
-	padding: 10px 50px;
-	
+	padding: 35px 100px;
 }
 
 nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
+
 }
 
 nav a {
@@ -26,9 +27,13 @@ nav a {
 	text-decoration: none;
 	font-size: 20px;
 	transition: color 0.3s ease;
+
 }
 
 nav a:hover {
+	color: #FFD700;
+}
+.card:hover {
 	color: #FFD700;
 }
 
@@ -45,9 +50,13 @@ h1 {
 
 .projects-container {
 	display: flex;
-	margin:  auto; /* This will center the container horizontally */
-	max-width: 800px; /* Adjust the max-width to fit your project */
-	  
+	justify-content: center;
+	align-items: center;
+	padding: px;
+	margin:  px; /* This will center the container horizontally */
+	width: 100%;
+	max-width: 400; /* Adjust the max-width to fit your project */
+	height: auto;  
 }
 
 .round-img-container {
